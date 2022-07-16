@@ -4,25 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Começando com HTML</title>
+    <title>Começando com HTML & CSS</title>
+    <style>
+        body{
+            background-color: green;
+        }
+        #minhaApresentacao{
+            color: red;
+            font-family: monospace;
+            background-color: rgb(29, 141, 29);
+            font-size: large;
+        }
+        .nacionalidade{
+            font-style: italic; 
+        }
+        .skillsOne{
+            font-size: 15px;
+        }
+        .skilssTwo{
+            font-size: 20px;
+        }
+        .skilssThree{
+            font-size: 10px;
+        }
+    </style>
  </head>
  <body>
+     <div>indice
+         <a href="#habilidades">habilidades</a>
+         <a href="#scratch">scratch</a>
+     </div>
+
          <!--descrição e foto -->
      <div>
-         <img src="souTryber.jpg" alt="minha foto pensativo">
+         <img src="souTryber.jpg" alt="minha foto pensativo" id="minhaFoto">
      </div>
-     <div>
-         Olá, me chamo Wellington Barbosa de Carvalho brasileiro, São Paulo SP.
+     <div id="minhaApresentacao">
+         Olá, me chamo Wellington Barbosa de Carvalho <span class="nacionalidade">brasileiro, São Paulo SP.</span>
          <p>Estou no começo do assunto sobre HTML</p> 
      </div>
+
          <!--lista de habilidades-->
-     <div>
+     <div id="habilidades">
          lista de habilidades.
-         <strong>flexibilidade.</strong>
-         Capacidade de trabalho em um ambiente virtual.
-         Dedicação
+         <p class="skillsOne">flexibilidade.</p>
+            <p class="skilssTwo">Capacidade de trabalho em um ambiente virtual.</p>
+                <p class="skilssThree">Dedicação</p>
      </div>
-     <p><a href="https://scratch.mit.edu/">Se divirta com #Scratch</a></p>
+     <p>
+             <a href="https://scratch.mit.edu/" id="scratch">Se divirta com #Scratch</a>
+             <a href="#minhaFoto">link para minha foto</a>
+     </p>
         
  </body>
  </html>

@@ -1,0 +1,75 @@
+body{
+    background-color: green;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.nacionalidade{
+    font-style: italic; 
+}
+.skillsOne .skilssTwo .skilssThree{
+    color: white;
+}
+.skillsOne{
+    font-size: 15px;
+}
+.skilssTwo{
+    font-size: 20px;
+}
+.skilssThree{
+    font-size: 10px;
+}
+img{
+    size: 10px;
+    float: left;
+    padding: 5px;
+    width: 200x;
+    height: 165px;
+    border-radius: 50%;
+    background-color: rgb(143, 204, 1);
+    
+}
+#minhaApresentacao{
+    color: white;
+    font-family: monospace;
+    background-color: rgb(29, 141, 29);
+    font-size: large;
+    padding: 48px 45px;
+    text-align: center;
+    margin: auto;
+    height: 80px;
+   
+}
+.button{
+    color: white;
+    background-color: rgb(57, 179, 57);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 17px;
+    width: 150px;
+    height: 100px;
+    float:inline-start;
+    
+}
+ul{
+    list-style-type: georgian;
+    color: white;
+}
+#habilidades{
+    color: white;
+    font-size: large;
+}
+
+ul.classeHabilidade li:nth-child(odd){
+    color: red;
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 20px;
+}
